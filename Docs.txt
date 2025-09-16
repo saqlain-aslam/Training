@@ -7,3 +7,215 @@ Core Parts:
 
 grid 12 columns, navbar, buttons, cards, forms, modals, helper classes for style colr etc
 
+
+Key Terms in Bootstrap (with Usage)
+
+ 1. Container
+
+ `container` and `container-fluid` are layout wrappers.
+ `container` gives a fixed-width responsive container, while `container-fluid` spans the full width of the screen.
+
+
+
+ 2. Row
+
+ Used with the grid system (`row` class).
+ Ensures proper alignment and spacing between columns inside a container.
+
+
+
+ 3. Col / Column Classes
+
+ Classes like `col`, `col-6`, `col-md-4` define column widths.
+ They divide the row into a 12-grid system and make layouts responsive.
+
+
+
+ 4. Grid Breakpoints
+
+ Classes like `sm`, `md`, `lg`, `xl`, `xxl` define responsiveness at different screen sizes.
+ Example: `col-md-6` means the column takes 6/12 width on medium and larger screens.
+
+
+
+ 5. Typography Classes
+
+ `h1`–`h6`, `lead`, `fw-bold`, `text-muted` control font size, weight, and styling.
+ Helps make text more readable and visually appealing.
+
+
+
+ 6. Text Alignment
+
+ `text-start`, `text-center`, `text-end` align text horizontally.
+ Works responsively like `text-md-center`.
+
+
+
+ 7. Images
+
+ `img-fluid` makes images responsive (max-width: 100%).
+ `rounded`, `rounded-circle`, `img-thumbnail` apply shapes and borders.
+
+
+
+ 8. Navbar
+
+ `navbar`, `navbar-expand-lg`, `navbar-dark`, `bg-dark` are used for navigation bars.
+ Provides a responsive, collapsible menu system.
+
+
+
+ 9. Buttons
+
+ `btn`, `btn-primary`, `btn-success`, `btn-outline-dark` style buttons.
+ `btn-lg`, `btn-sm` change button size.
+
+
+
+ 10. Forms
+
+ `form-control` styles inputs, `form-check` styles checkboxes/radio.
+ `input-group` combines inputs with icons or buttons.
+
+
+
+ 11. Cards
+
+ `card`, `card-body`, `card-title`, `card-text`, `card-img-top` structure card components.
+ Used for displaying content blocks like product previews.
+
+
+
+ 12. Alerts
+
+ `alert`, `alert-success`, `alert-danger`, etc., display notification messages.
+ Can include dismissible alerts with `alert-dismissible` and `btn-close`.
+
+
+
+ 13. Badges
+
+ `badge`, `bg-primary`, `rounded-pill` highlight counts, tags, or labels.
+ Often placed inside buttons or headings.
+
+
+
+ 14. Breadcrumb
+
+ `breadcrumb` and `breadcrumb-item` show navigation hierarchy.
+ Used for multi-level navigation paths.
+
+
+
+ 15. Pagination
+
+ `pagination`, `page-item`, `page-link` create paginated navigation.
+ Supports active/disabled states.
+
+
+
+ 16. Modals
+
+ `modal`, `modal-dialog`, `modal-content` create popup dialogs.
+ Controlled by JavaScript triggers (buttons, links, etc.).
+
+
+
+ 17. Carousel
+
+ `carousel`, `carousel-item`, `carousel-caption` display rotating slides.
+ Supports images, captions, and controls.
+
+
+
+ 18. Accordion
+
+ `accordion`, `accordion-item`, `accordion-header` create collapsible panels.
+ Useful for FAQs or toggle content.
+
+
+
+ 19. Dropdowns
+
+ `dropdown`, `dropdown-menu`, `dropdown-item` create toggle menus.
+ Often used in navbars or buttons.
+
+
+
+ 20. Tables
+
+ `table`, `table-striped`, `table-bordered`, `table-hover` style tables.
+ `table-responsive` makes them scrollable on small screens.
+
+
+
+ 21. Spacing Utilities
+
+ `m-0` to `m-5` (margin) and `p-0` to `p-5` (padding).
+ Example: `mt-3` = margin-top: 1rem, `px-4` = padding left & right: 1.5rem.
+
+
+
+ 22. Flex Utilities
+
+ `d-flex`, `justify-content-center`, `align-items-start` use Flexbox for alignment.
+ `flex-row`, `flex-column` control layout direction.
+
+
+
+ 23. Display Utilities
+
+ `d-none`, `d-block`, `d-inline`, `d-lg-none` control element visibility and display.
+ Used for responsive show/hide elements.
+
+
+
+ 24. Colors
+
+ Text: `text-primary`, `text-danger`.
+ Background: `bg-success`, `bg-dark`.
+ Buttons, alerts, and badges also support the same color system.
+
+
+
+ 25. Shadows & Borders
+
+ `shadow`, `shadow-lg`, `border`, `border-0`, `rounded`, `rounded-circle`.
+ Used to style edges and add depth.
+
+
+
+ 26. Position Utilities
+
+ `position-relative`, `position-absolute`, `top-0`, `end-0`.
+ Control where an element is placed.
+
+
+
+ 27. Z-index Utilities
+
+ `z-0`, `z-1`, `z-3` control stacking order.
+ Helpful when layering modals, dropdowns, or tooltips.
+
+
+
+ 28. Collapse
+
+ `collapse` and `collapse.show` toggle visibility of content.
+ Commonly used with accordions and navbars.
+
+
+
+ 29. Toast
+
+ `toast`, `toast-header`, `toast-body` show lightweight notifications.
+ Can be auto-dismissed or manually closed.
+
+
+
+ 30. Utilities for Responsiveness
+
+ `w-25`, `w-50`, `w-100` (widths), `h-100` (height).
+ `overflow-auto`, `overflow-hidden`, `text-truncate` handle content overflow.
+
