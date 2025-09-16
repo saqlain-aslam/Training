@@ -1,0 +1,9 @@
+
+Bootstrap:
+
+Bootstrap is a front-end CSS (and JS) framework originally built at Twitter. It gives you ready-made styles and UI components so you can build responsive websites fast.
+
+Core Parts:
+
+grid 12 columns, navbar, buttons, cards, forms, modals, helper classes for style colr etc
+
