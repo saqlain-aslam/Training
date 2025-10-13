@@ -1,174 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Bootstrap Training Page</title>
 
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
-    <a class="navbar-brand fs-1 " href="#"><strong>The Guardian</strong></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#navbarNav" aria-controls="navbarNav" 
-            aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto fs-3">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Lifestyle</a></li>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-0 pb-0">
+    <div class="container">
+      <a class="navbar-brand fs-2" href="#"><strong>The Guardians</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fs-3">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Lifestyle</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- line -->
+  <hr class="m-0 p-0">
+
+  <!-- list -->
+  <div class="container-fluid bg-success m-0 p-0">
+    <ul class="container p-3 ps-5 ms-4 d-flex flex-wrap list-unstyled m-0">
+      <li class="px-3 text-white ">News</li>
+      <li class="px-3 text-white">TLP</li>
+      <li class="px-3 text-white">Kashmir</li>
+      <li class="px-3 text-white">KPK</li>
+      <li class="px-3 text-white">Flood</li>
+      <li class="px-3 text-white">KPK Assembly</li>
+      <li class="px-3 text-white">Gaza</li>
+      <li class="px-3 text-white">Afghan Border</li>
+      <li class="px-3 text-white">US Politics</li>
+    </ul>
+  </div>
+
+  <!-- news1 -->
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-4  border-end border-warning border-3">
+        <h2 class="text-muted text-capitalize">creakdown at tLP protest Rally</h2>
+      </div>
+      <div class="col-8 px-0">
+        <img src="images/image3.jpeg" class="img-fluid rounded-0 w-60 px-5" alt="image2">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- news2 -->
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-4  border-end border-warning border-3">
+        <h2 class="text-muted text-capitalize">Weather ForeCast</h2>
+      </div>
+      <div class="col-8 px-0">
+        <img src="images/nature.jpg" class="img-fluid rounded-0 w-80 px-5" alt="image2">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- news3 -->
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-4  border-end border-warning border-3">
+        <h2 class="text-muted text-capitalize">American University Scholarships</h2>
+      </div>
+      <div class="col-8 px-0">
+        <img src="images/image2.jpeg" class="img-fluid rounded-0 w-60 px-5" alt="image2">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid py-5">
+    <div class="row gx-0">
+      <div class="col-3 d-flex align-items-center justify-content-center border-end border-warning border-3">
+        <h2 class="text-muted text-capitalize mb-0 px-3">Weather Forecast</h2>
+      </div>
+
+      <div class="col-3 px-0">
+        <img src="images/nature.jpg" class="img-fluid w-100 rounded-0 px-2" alt="image1">
+      </div>
+
+      <div class="col-3 d-flex align-items-center justify-content-center border-end border-warning border-3">
+        <h2 class="text-muted text-capitalize mb-0 px-3">Weather Forecast</h2>
+      </div>
+
+      <div class="col-3 px-0">
+        <img src="images/nature.jpg" class="img-fluid w-100 rounded-0 px-2" alt="image2">
+      </div>
+    </div>
+  </div>
+
+  <Footer class="bg-success">
+    <!-- list -->
+    <div class="container-fluid bg-success m-0 p-0">
+      <ul class="container p-3 ps-5 ms-4 d-flex flex-wrap list-unstyled m-0">
+        <li class="px-3 text-white ">News</li>
+        <li class="px-3 text-white">TLP</li>
+        <li class="px-3 text-white">Kashmir</li>
+        <li class="px-3 text-white">KPK</li>
+        <li class="px-3 text-white">Flood</li>
+        <li class="px-3 text-white">KPK Assembly</li>
+        <li class="px-3 text-white">Gaza</li>
+        <li class="px-3 text-white">Afghan Border</li>
+        <li class="px-3 text-white">US Politics</li>
       </ul>
     </div>
-  </div>
-</nav>
-<div class="bg-primary text-white d-flex flex-wrap p-3 ps-4 border">
-  <span class="me-3">World</span>
-  <span class="me-3">US politics</span>
-  <span class="me-3">UK</span>
-  <span class="me-3">Climate crisis</span>
-  <span class="me-3">Middle East</span>
-  <span class="me-3">Ukraine</span>
-  <span class="me-3">Environment</span>
-  <span class="me-3">Science</span>
-  <span class="me-3">Global development</span>
-  <span class="me-3">Football</span>
-  <span class="me-3">Tech</span>
-  <span class="me-3">Business</span>
-  <span class="me-3">Obituaries</span>
-</div>
+    <hr class="m-0 p-0">
 
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-4 py-5">
+          <p class="fs-4 text-white border-end border-light border-2    ">
+            Original reporting and incisive analysis, direct from the Guardian every morning
+          </p>
+        </div>
 
-
-
- 
-
-  <div class="container my-5">
-    <div class="row align-items-center">
-      <div class="col-md-2">
-        <h1>News</h1>
-      </div>
-      
-      <!-- Left Column (Text) -->
-      <div class="col-md-5 col ">
-        <h1 class="mb-3 text-danger">Politics</h1>
-        <p>
-          Bootstrap is a powerful front-end framework for creating responsive, 
-          mobile-first websites quickly and easily. It provides ready-made 
-          CSS classes and JavaScript components.
-        </p>
-        <button class="btn btn-primary">Learn More</button>
-        <button class="btn btn-success">Get Started</button>
-      </div>
-      
-        <div class="col-md-5 text-center ">
-      <img src="images/image2.jpeg" alt="My Photo" class="img-fluid rounded" width="300">
-
-      </div>
-    </div>
-  </div>
-
-   <div class="container my-5">
-    <div class="row align-items-center">
-      <div class="col-md-2">
-        <!-- <h1>News</h1> -->
-      </div>
-      
-      <!-- Left Column (Text) -->
-      <div class="col-md-5 col ">
-        <h1 class="mb-3 text-danger">Politics</h1>
-        <p>
-          Bootstrap is a powerful front-end framework for creating responsive, 
-          mobile-first websites quickly and easily. It provides ready-made 
-          CSS classes and JavaScript components.
-        </p>
-        <button class="btn btn-primary">Learn More</button>
-        <button class="btn btn-success">Get Started</button>
-      </div>
-      
-      <div class="col-md-5 text-center ">
-      <img src="images/image2.jpeg" alt="My Photo" class="img-fluid rounded" width="300">
+        <div class="col-8 py-5">
+          <div class="row text-white">
+            <div class="col border-end border-light border-2">
+              <ul class="list-unstyled m-0 p-3">
+                <li>News</li>
+                <li>TLP</li>
+                <li>Kashmir</li>
+                <li>KPK</li>
+                <li>Flood</li>
+                <li>KPK Assembl</li>
+                <li>Gaza</li>
+                <li>Afghan Border</li>
+                <li> US Politics</li>
+              </ul>
+            </div>
+            <div class="col border-end border-light border-2">
+              <ul class="list-unstyled m-0 p-3">
+                <li>News</li>
+                <li>TLP</li>
+                <li>Kashmir</li>
+                <li>KPK</li>
+                <li>Flood</li>
+                <li>KPK Assembl</li>
+                <li>Gaza</li>
+                <li>Afghan Border</li>
+                <li> US Politics</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-unstyled m-0 p-3">
+                <li>News</li>
+                <li>TLP</li>
+                <li>Kashmir</li>
+                <li>KPK</li>
+                <li>Flood</li>
+                <li>KPK Assembl</li>
+                <li>Gaza</li>
+                <li>Afghan Border</li>
+                <li> US Politics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
-  </div>
-
-
-   <div class="container my-5">
-    <div class="row align-items-center">
-      <div class="col-md-2">
-        <!-- <h1>News</h1> -->
-      </div>
-      
-      <div class="col-md-5 col ">
-        <h1 class="mb-3 text-danger">Politics</h1>
-        <p>
-          Bootstrap is a powerful front-end framework for creating responsive, 
-          mobile-first websites quickly and easily. It provides ready-made 
-          CSS classes and JavaScript components.
-        </p>
-        <button class="btn btn-primary">Learn More</button>
-        <button class="btn btn-success">Get Started</button>
-      </div>
-      
-      <div class="col-md-5 text-center ">
-      <img src="images/image2.jpeg" alt="My Photo" class="img-fluid rounded" width="300">
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container my-5">
-  <div class="row align-items-center">
     
-    <div class="col-md-2">
-      <!-- <h1>News</h1> -->
+    <hr class=" ">
+
+    <div class="bg-successs m-0 p-3">
+      <p class="text-white"> © 2025 Guardian News & Media Limited or its affiliated companies. All rights reserved. (dcr)</p>
     </div>
 
-    <div class="col-md-5">
-      <div class="row align-items-center">
-        <div class="col-md-7">
-          <h1 class="mb-3 text-danger">Politics</h1>
-          <p>
-            Bootstrap is a powerful front-end framework for creating responsive, 
-            mobile-first websites quickly and easily. It provides ready-made 
-            CSS classes and JavaScript components.
-          </p>  
-        </div>
-        <div class="col-md-5 text-center">
-          <img src="images/image2.jpeg" alt="My Photo" class="img-fluid rounded" width="300">
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-5">
-      <div class="row align-items-center">
-        <div class="col-md-7">
-          <h1 class="mb-3 text-danger">Politics</h1>
-          <p>
-            Bootstrap is a powerful front-end framework for creating responsive, 
-            mobile-first websites quickly and easily. It provides ready-made 
-            CSS classes and JavaScript components.
-          </p>  
-        </div>
-        <div class="col-md-5 text-center">
-          <img src="images/image2.jpeg" alt="My Photo" class="img-fluid rounded" width="300">
-        </div>
-      </div>
-    </div>
+  </Footer>
 
-  </div>
-</div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
