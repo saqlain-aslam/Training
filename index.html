@@ -10,12 +10,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-secondary-subtle text-white">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-0 pb-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-0 pb-0 sticky-top">
     <div class="container">
-      <a class="navbar-brand fs-2" href="#"><strong>The Guardians</strong></a>
+      <a class="navbar-brand fs-2 lead " href="#"><strong>The Guardian </strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,11 +23,11 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto fs-3">
-          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Lifestyle</a></li>
+          <li class="nav-item"><a class="nav-link lead active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link lead" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link lead" href="#">Opinion</a></li>
+          <li class="nav-item"><a class="nav-link lead" href="#">Culture</a></li>
+          <li class="nav-item"><a class="nav-link lead" href="#">Lifestyle</a></li>
         </ul>
       </div>
     </div>
@@ -36,76 +36,106 @@
   <!-- line -->
   <hr class="m-0 p-0">
 
-  <!-- list -->
+
+  <!-- List  -->
   <div class="container-fluid bg-success m-0 p-0">
-    <ul class="container p-3 ps-5 ms-4 d-flex flex-wrap list-unstyled m-0">
-      <li class="px-3 text-white ">News</li>
-      <li class="px-3 text-white">TLP</li>
-      <li class="px-3 text-white">Kashmir</li>
-      <li class="px-3 text-white">KPK</li>
-      <li class="px-3 text-white">Flood</li>
-      <li class="px-3 text-white">KPK Assembly</li>
-      <li class="px-3 text-white">Gaza</li>
-      <li class="px-3 text-white">Afghan Border</li>
-      <li class="px-3 text-white">US Politics</li>
+    <ul class="container d-flex flex-column flex-md-row flex-wrap 
+             align-items-center justify-content-center justify-content-md-start 
+             list-unstyled m-0 py-3 px-lg-5 ">
+
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">News</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">TLP</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">Kashmir</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">KPK</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">Flood</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">KPK Assembly</li>
+      <li class="px-2 px-md-3 text-white lead  cursor-pointer">Gaza</li>
+      <!-- <li class="px-2 px-md-3 text-white lead  cursor-pointer">Afghan Border</li> -->
+
     </ul>
   </div>
 
+
+  <div class="container-fluid py-2 px-5">
+    <div>
+      <h1 class="text-dark">Preferences</h1>
+      <p class="text-start text-muted lead">We aim to make this site accessible to a wide audience and ensure a great
+        experience for
+        all users by conforming to World Wide Web Consortium accessibility guidelines (W3C's WCAG).
+        <br class="inline-md">
+        However, if you are having trouble reading this website, you can change the way it looks or disable some of its
+        functionalities.
+      </p>
+
+    </div>
+
+    <div class="form-check mb-2">
+      <input class="form-check-input" type="checkbox" value="" id="flashingCheck" checked>
+      <label class="form-check-label text-dark lead" for="flashingCheck">
+        Allow flashing elements — Untick this to disable flashing and moving elements</span>
+      </label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="autoplayCheck" checked>
+      <label class="form-check-label text-dark lead" for="autoplayCheck">
+        Allow autoplay video — Untick this to disable autoplaying video</span>
+      </label>
+    </div>  
+  </div>
+
   <!-- news1 -->
-  <div class="container-fluid py-5">
-    <div class="row">
-      <div class="col-4  border-end border-warning border-3">
-        <h2 class="text-muted text-capitalize">creakdown at tLP protest Rally</h2>
-      </div>
-      <div class="col-8 px-0">
-        <img src="images/image3.jpeg" class="img-fluid rounded-0 w-60 px-5" alt="image2">
+  <div class="container-fluid p-5">
+    <div class="row flex-column flex-md-row align-items-center">
+      <!-- Text Section -->
+      <div class="col-12 col-md-4   mb-3 mb-md-0 text-center text-md-start">
+        <h2 class="text-muted text-capitalize lead">
+          Crackdown At TLP
+        </h2>
       </div>
 
+      <!-- Image Section -->
+      <div
+        class="col-12 col-md-8  col-lg-6 col-xl-8 px-0 text-start ps-md-5 pe-md-5  border-start border-warning border-3 ">
+        <img src="images/image3.jpeg" class="img-fluid  rounded-0 w-100" alt="TLP Protest Rally">
+      </div>
     </div>
   </div>
 
-  <!-- news2 -->
-  <div class="container-fluid ">
-    <div class="row">
-      <div class="col-4  border-end border-warning border-3">
-        <h2 class="text-muted text-capitalize">Weather ForeCast</h2>
-      </div>
-      <div class="col-8 px-0">
-        <img src="images/nature.jpg" class="img-fluid rounded-0 w-80 px-5" alt="image2">
+
+  <!-- 2nd news -->
+  <div class="container-fluid p-5">
+    <div class="row flex-column flex-md-row align-items-center">
+      <!-- Text Section -->
+      <div class="col-12 col-md-4   mb-3 mb-md-0 text-center text-md-start">
+        <h2 class="text-muted text-capitalize lead">
+          Weather Forecast
+        </h2>
       </div>
 
+      <!-- Image Section -->
+      <div
+        class="col-12 col-md-8  col-lg-6 col-xl-8 px-0 text-start ps-md-5 pe-md-5  border-start border-warning border-3 ">
+        <img src="images/nature.jpg" class="img-fluid  rounded-0 w-100" alt="TLP Protest Rally">
+      </div>
     </div>
   </div>
 
-  <!-- news3 -->
-  <div class="container-fluid py-5">
-    <div class="row">
-      <div class="col-4  border-end border-warning border-3">
-        <h2 class="text-muted text-capitalize">American University Scholarships</h2>
-      </div>
-      <div class="col-8 px-0">
-        <img src="images/image2.jpeg" class="img-fluid rounded-0 w-60 px-5" alt="image2">
-      </div>
 
-    </div>
-  </div>
-
-  <div class="container-fluid py-5">
-    <div class="row gx-0">
-      <div class="col-3 d-flex align-items-center justify-content-center border-end border-warning border-3">
-        <h2 class="text-muted text-capitalize mb-0 px-3">Weather Forecast</h2>
+  <!-- 3rd news -->
+  <div class="container-fluid p-5">
+    <div class="row flex-column flex-md-row align-items-center">
+      <!-- Text Section -->
+      <div class="col-12 col-md-4   mb-3 mb-md-0 text-center text-md-start">
+        <h2 class="text-muted text-capitalize lead">
+          American University Scholarships
+        </h2>
       </div>
 
-      <div class="col-3 px-0">
-        <img src="images/nature.jpg" class="img-fluid w-100 rounded-0 px-2" alt="image1">
-      </div>
-
-      <div class="col-3 d-flex align-items-center justify-content-center border-end border-warning border-3">
-        <h2 class="text-muted text-capitalize mb-0 px-3">Weather Forecast</h2>
-      </div>
-
-      <div class="col-3 px-0">
-        <img src="images/nature.jpg" class="img-fluid w-100 rounded-0 px-2" alt="image2">
+      <!-- Image Section -->
+      <div
+        class="col-12 col-md-8  col-lg-6 col-xl-8 px-0 text-start ps-md-5 pe-md-5  border-start border-warning border-3 ">
+        <img src="images/image2.jpeg" class="img-fluid  rounded-0 w-100" alt="TLP Protest Rally">
       </div>
     </div>
   </div>
@@ -113,83 +143,100 @@
   <Footer class="bg-success">
     <!-- list -->
     <div class="container-fluid bg-success m-0 p-0">
-      <ul class="container p-3 ps-5 ms-4 d-flex flex-wrap list-unstyled m-0">
-        <li class="px-3 text-white ">News</li>
-        <li class="px-3 text-white">TLP</li>
-        <li class="px-3 text-white">Kashmir</li>
-        <li class="px-3 text-white">KPK</li>
-        <li class="px-3 text-white">Flood</li>
-        <li class="px-3 text-white">KPK Assembly</li>
-        <li class="px-3 text-white">Gaza</li>
-        <li class="px-3 text-white">Afghan Border</li>
-        <li class="px-3 text-white">US Politics</li>
+      <ul class="container d-flex flex-column flex-md-row flex-wrap 
+             align-items-center justify-content-center justify-content-md-start 
+             list-unstyled m-0 py-3  ">
+
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">News</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">TLP</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">Kashmir</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">KPK</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">Flood</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">KPK Assembly</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">Gaza</li>
+        <li class="px-2 px-md-3 text-white lead   cursor-pointer">Afghan Border</li>
+
       </ul>
     </div>
+
     <hr class="m-0 p-0">
 
     <div class="container-fluid ">
-      <div class="row">
-        <div class="col-4 py-5">
-          <p class="fs-4 text-white border-end border-light border-2    ">
+      <div class="row flex-column flex-md-row">
+
+        <!-- Left Column -->
+        <div class="col-12 col-md-4 py-3 ">
+          <p class="lead text-white text-center text-md-start  mb-0 px-3">
             Original reporting and incisive analysis, direct from the Guardian every morning
           </p>
         </div>
 
-        <div class="col-8 py-5">
-          <div class="row text-white">
-            <div class="col border-end border-light border-2">
+        <!-- Right Column -->
+        <div class="col-12 col-md-8 py-3">
+          <div class="row text-white text-center text-md-start">
+
+            <!-- Column 1 -->
+            <div class="col-12 col-sm-4  mb-3 mb-md-0">
               <ul class="list-unstyled m-0 p-3">
-                <li>News</li>
-                <li>TLP</li>
-                <li>Kashmir</li>
-                <li>KPK</li>
-                <li>Flood</li>
-                <li>KPK Assembl</li>
-                <li>Gaza</li>
-                <li>Afghan Border</li>
-                <li> US Politics</li>
+                <li class="lead">News</li>
+                <li class="lead">TLP</li>
+                <li class="lead">Kashmir</li>
+                <li class="lead">KPK</li>
+                <li class="lead">Flood</li>
+                <li class="lead">KPK Assembly</li>
+                <li class="lead">Gaza</li>
+                <li class="lead">Afghan Border</li>
+                <li class="lead">US Politics</li>
               </ul>
             </div>
-            <div class="col border-end border-light border-2">
+
+            <!-- Column 2 -->
+            <div class="col-12 col-sm-4 mb-3 mb-md-0">
               <ul class="list-unstyled m-0 p-3">
-                <li>News</li>
-                <li>TLP</li>
-                <li>Kashmir</li>
-                <li>KPK</li>
-                <li>Flood</li>
-                <li>KPK Assembl</li>
-                <li>Gaza</li>
-                <li>Afghan Border</li>
-                <li> US Politics</li>
+                <li class="lead">News</li>
+                <li class="lead">TLP</li>
+                <li class="lead">Kashmir</li>
+                <li class="lead">KPK</li>
+                <li class="lead">Flood</li>
+                <li class="lead">KPK Assembly</li>
+                <li class="lead">Gaza</li>
+                <li class="lead">Afghan Border</li>
+                <li class="lead">US Politics</li>
               </ul>
             </div>
-            <div class="col">
+
+            <!-- Column 3 -->
+            <div class="col-12 col-sm-4">
               <ul class="list-unstyled m-0 p-3">
-                <li>News</li>
-                <li>TLP</li>
-                <li>Kashmir</li>
-                <li>KPK</li>
-                <li>Flood</li>
-                <li>KPK Assembl</li>
-                <li>Gaza</li>
-                <li>Afghan Border</li>
-                <li> US Politics</li>
+                <li class="lead">News</li>
+                <li class="lead">TLP</li>
+                <li class="lead">Kashmir</li>
+                <li class="lead">KPK</li>
+                <li class="lead">Flood</li>
+                <li class="lead">KPK Assembly</li>
+                <li class="lead">Gaza</li>
+                <li class="lead">Afghan Border</li>
+                <li class="lead">US Politics</li>
               </ul>
             </div>
+
           </div>
         </div>
-
       </div>
     </div>
-    
-    <hr class=" ">
+
+
+    <hr />
 
     <div class="bg-successs m-0 p-3">
-      <p class="text-white"> © 2025 Guardian News & Media Limited or its affiliated companies. All rights reserved. (dcr)</p>
+      <p class="text-white lead"> © 2025 Guardian News & Media Limited or its affiliated companies. All rights reserved.
+        (dcr)</p>
     </div>
 
 
   </Footer>
+
+
 
 
 
